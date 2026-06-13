@@ -25,6 +25,7 @@
 			"com.example.template.data.TemplateDatagen"
 		]
 	},
+	"accessWidener": "template.accesswidener",
 	"mixins": [
 		"template.mixins.json"
 	],
