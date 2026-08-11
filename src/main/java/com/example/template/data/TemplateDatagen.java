@@ -5,11 +5,11 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 
 public class TemplateDatagen implements DataGeneratorEntrypoint {
-	public void onInitializeDataGenerator(FabricDataGenerator generator) {
-		FabricDataGenerator.Pack pack = generator.createPack();
-	}
+    public void onInitializeDataGenerator(FabricDataGenerator generator) {
+        FabricDataGenerator.Pack pack = generator.createPack();
+    }
 
-	public void buildRegistry(RegistryBuilder builder) {
-		//
-	}
+    public void buildRegistry(RegistryBuilder builder) {
+        //
+    }
 }
