@@ -6,7 +6,7 @@ import net.fabricmc.api.Environment;
 
 @Environment(EnvType.CLIENT)
 public class TemplateClient implements ClientModInitializer {
-	public void onInitializeClient() {
-		//
-	}
+    public void onInitializeClient() {
+        //
+    }
 }
